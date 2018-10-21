@@ -21,7 +21,7 @@ body{
   width: 30%;
   height: 80%;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 150px;
   padding: 15px;
   background-color: #031d40;
   border-style: solid;
@@ -58,8 +58,9 @@ body{
   height: 30px;
 }
 
-hr{
+.login-container-login-form-divider{
   margin: 5px;
+  width: 70%;
 }
 
 .login-container-login-form-spacer{
