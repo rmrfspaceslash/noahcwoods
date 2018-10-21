@@ -30,19 +30,6 @@
       <div class="login-container-login">
         <form class="login-container-login-form" action="login.php" method="post">
           <h1>Login</h1><br/>
-
-
-<section class="portfolio-experiment">
-  <a>
-    <span class="text">Hover me</span>
-    <span class="line -right"></span>
-    <span class="line -top"></span>
-    <span class="line -left"></span>
-    <span class="line -bottom"></span>
-  </a>
-</section>
-
-
           <input type="text" name="username" placeholder="username*"><br/>
           <input type="password" name="password" placeholder="password*"><br/>
           <input type="submit" name="submit" value="Login"><br/>
