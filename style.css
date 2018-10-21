@@ -23,6 +23,7 @@ body{
   margin: auto;
   margin-left: 200px;
   padding: 15px;
+  float: left;
 }
 
 .login-container-login{
