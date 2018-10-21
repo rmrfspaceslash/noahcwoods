@@ -7,7 +7,7 @@
 
 .login-container{
   float: left;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   margin: 10px 0px 10px 0px;
