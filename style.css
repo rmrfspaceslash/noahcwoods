@@ -27,10 +27,12 @@ body{
 }
 
 .login-container-login h1{
-  font-size: 36px;
+  font-size: 48px;
 }
 
 .login-container-login-form input{
   margin: 5px 10px 5px 10px;
   box-sizing: border-box;
+  width: 70%;
+  height: 10%;
 }
