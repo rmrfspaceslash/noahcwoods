@@ -59,8 +59,9 @@ body{
 }
 
 .login-container-login-form-divider{
-  margin: 15px 0px 5px 0px;
+  margin: 25px 0px 5px 0px;
   width: 100%;
+  color: #031d40;
 }
 
 .login-container-login-form-spacer{
