@@ -21,6 +21,7 @@ body{
   width: 60%;
   height: 90%;
   marign: auto;
+  margin-top: 25px;
   margin-left: 25px;
   background-color: rgba(0, 0, 0, 0.3);
   border-style: solid;
