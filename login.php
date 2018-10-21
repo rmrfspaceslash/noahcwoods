@@ -30,6 +30,19 @@
       <div class="login-container-login">
         <form class="login-container-login-form" action="login.php" method="post">
           <h1>Login</h1><br/>
+
+
+<section class="portfolio-experiment">
+  <a>
+    <span class="text">Hover me</span>
+    <span class="line -right"></span>
+    <span class="line -top"></span>
+    <span class="line -left"></span>
+    <span class="line -bottom"></span>
+  </a>
+</section>
+
+
           <input type="text" name="username" placeholder="username*"><br/>
           <input type="password" name="password" placeholder="password*"><br/>
           <input type="submit" name="submit" value="Login"><br/>
@@ -40,7 +53,7 @@
           <input type="text" name="reg_email" placeholder="Provide your e-mail">
           <input type="text" name="reg_firstname" placeholder="Enter your first name">
           <input type="text" name="reg_lastname" placeholder="Enter your last name">
-          <input class="portfolio-experiment" type="submit" name="register" value="Register"><br/>
+          <input type="submit" name="register" value="Register"><br/>
           <hr class="login-container-login-form-spacer">
           <input type="submit" name="guest" value="Continue as guest">
         </form>
