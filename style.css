@@ -41,7 +41,7 @@ body{
   text-shadow: 2px 2px black;
 }
 
-.login-container-login-form input{
+.login-container-login-form input[type=text][type=password]{
   margin: 0px 10px 5px 10px;
   padding: 2px 2px 2px 4px;
   box-sizing: border-box;
@@ -50,6 +50,7 @@ body{
   height: 30px;
   font-size: 100%;
   text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .login-container-login-form input[type=submit]{
