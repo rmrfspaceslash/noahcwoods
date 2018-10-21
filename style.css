@@ -38,7 +38,7 @@ body{
   box-sizing: border-box;
   border-style: hidden;
   width: 80%;
-  height: 70%;
+  height: 30px;
   font-size: 100%;
   text-align: center;
 }
@@ -47,7 +47,7 @@ body{
   margin: 10px 0px 10px 0px;
   background-color: green;
   width: 80%;
-  height: 70%;
+  height: 30px;
 }
 
 .login-container-login-form hr{
