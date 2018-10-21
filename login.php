@@ -20,6 +20,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.scss">
   <head>
     <meta charset="utf-8">
     <title></title>
@@ -39,7 +40,7 @@
           <input type="text" name="reg_email" placeholder="Provide your e-mail">
           <input type="text" name="reg_firstname" placeholder="Enter your first name">
           <input type="text" name="reg_lastname" placeholder="Enter your last name">
-          <input type="submit" name="register" value="Register"><br/>
+          <input class="portfolio-experiment" type="submit" name="register" value="Register"><br/>
           <hr class="login-container-login-form-spacer">
           <input type="submit" name="guest" value="Continue as guest">
         </form>
