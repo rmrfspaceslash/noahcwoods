@@ -1,8 +1,11 @@
 
 body{
-  width: 1366px;
-  height: 768px;
   background-color: red;
+  max-width: 1366px;
+  max-height: 768px;
+  margin: auto;
+  background: white;
+  padding: 10px;
 }
 
 .login-container{
