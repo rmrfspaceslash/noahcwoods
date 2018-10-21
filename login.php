@@ -29,14 +29,16 @@
       <div class="login-container-login">
         <form class="login-container-login-form" action="login.php" method="post">
           <h1>Login</h1><br/>
-          <input type="text" name="username" placeholder="username"><br/>
-          <input type="password" name="password" placeholder="password"><br/>
+          <input type="text" name="username" placeholder="username*"><br/>
+          <input type="password" name="password" placeholder="password*"><br/>
           <input type="submit" name="submit" value="Login"><br/>
           <hr class="login-container-login-form-divider">
           <h1>Register</h1><br>
-          <input type="text" name="reg_username" placeholder="Pick a username <?php echo "*"; ?>" ><br/>
-          <input type="password" name="reg_password" placeholder="Enter a password"><br/>
+          <input type="text" name="reg_username" placeholder="Pick a username*" ><br/>
+          <input type="password" name="reg_password" placeholder="Enter a password*"><br/>
           <input type="text" name="reg_email" placeholder="Provide your e-mail">
+          <input type="text" name="reg_firstname" placeholder="Enter your first name">
+          <input type="text" name="reg_lastname" placeholder="Enter your last name">
           <input type="submit" name="submit" value="Login"><br/>
           <hr class="login-container-login-form-spacer">
           <input type="submit" name="guest" value="Continue as guest">
