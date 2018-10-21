@@ -24,7 +24,7 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body class="login-body">
     <div class="login-container">
       <div class="login-container-login">
         <form class="login-container-login-form" action="login.php" method="post">
@@ -33,6 +33,11 @@
           <input type="password" name="password" placeholder="password"><br/>
           <input type="submit" name="submit" value="Login"><br/>
           <hr>
+          <h1>Register</h1><br>
+          <input type="text" name="username" placeholder="username"><br/>
+          <input type="password" name="password" placeholder="password"><br/>
+          <input type="submit" name="submit" value="Login"><br/>
+          <hr class="login-container-login-form-spacer">
           <input type="submit" name="guest" value="Continue as guest">
         </form>
       </div>
