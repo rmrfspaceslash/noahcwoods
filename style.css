@@ -1,7 +1,7 @@
 body{
   background-color: red;
-  max-width: 1366px;
-  max-height: 768px;
+  max-width: 1920px;
+  max-height: 1080px;
   margin: auto;
   background: white;
   padding: 10px;
@@ -9,18 +9,17 @@ body{
 }
 
 .login-container{
-  width: 1366px;
-  height: 768px;
+  width: 1920px;
+  height: 1080px;
   margin: auto;
-  margin-left: 200px;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .login-container-login{
   text-align: center;
-  width: 30%;
-  height: 80%;
+  width: 25%;
+  height: 70%;
   margin: auto;
   margin-top: 100px;
   margin-left: 700px;
