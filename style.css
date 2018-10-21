@@ -39,5 +39,5 @@ body{
 }
 
 .login-container-login-form input[type=submit]{
-  margin-bottom: 15px;
+  margin: 10px 0px 10px 0px;
 }
