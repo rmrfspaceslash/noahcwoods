@@ -28,11 +28,16 @@ body{
 
 .login-container-login h1{
   font-size: 48px;
+  margin-bottom: 2px;
 }
 
 .login-container-login-form input{
-  margin: 5px 10px 5px 10px;
+  margin: 2px 10px 5px 10px;
   box-sizing: border-box;
   width: 70%;
   height: 10%;
+}
+
+.login-container-login-form input[type=submit]{
+  padding-bottom: 15px;
 }
