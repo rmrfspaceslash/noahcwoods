@@ -34,7 +34,7 @@
           <input type="submit" name="submit" value="Login"><br/>
           <hr class="login-container-login-form-divider">
           <h1>Register</h1><br>
-          <input type="text" name="reg_username" placeholder="Pick a username <?php echo "<p>*</p>"; ?>" ><br/>
+          <input type="text" name="reg_username" placeholder="Pick a username <?php echo "*"; ?>" ><br/>
           <input type="password" name="reg_password" placeholder="Enter a password"><br/>
           <input type="text" name="reg_email" placeholder="Provide your e-mail">
           <input type="submit" name="submit" value="Login"><br/>
