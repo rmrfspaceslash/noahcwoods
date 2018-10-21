@@ -25,3 +25,11 @@ body{
   padding: 15px;
   background-color: #031d40;
 }
+
+.login-container-login h1{
+  font-size: 36px;
+}
+
+.login-container-login-form input{
+  padding: 5px 10px 5px 10px;
+}
