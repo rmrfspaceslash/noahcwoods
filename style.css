@@ -16,16 +16,6 @@ body{
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.login-container-info{
-  text-align: center;
-  width: 50%;
-  height: 25%;
-  margin: auto;
-  margin-left: 200px;
-  padding: 15px;
-  float: left;
-}
-
 .login-container-login{
   text-align: center;
   width: 25%;
@@ -38,7 +28,6 @@ body{
   border-width: 1px;
   box-shadow: 2px 2px;
   border-radius: 10px;
-  float: left;
 }
 
 .login-container-login h1{
