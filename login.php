@@ -14,6 +14,11 @@
 //charcoal type background with light grey overlay for text and information areas
 //all div class tags use absolute path (ex. login-container-form-h1. etc)
 
+//div class=login-container-info. Create box on left side of site,
+//include pictures to different pages for different work you've done
+//ex. Picture of coding on laptop for php examples, picture of database for db examples.
+//Picture of penguin to go to download page for NOAHOS
+
  ?>
 
 
@@ -28,10 +33,6 @@
   <body class="login-body">
     <div class="login-container">
       <div class="login-container-info">
-        <h1>Welcome!</h1>
-        <p>This is a fun little website I have created. <br/>
-        Hopefully I can improve this website over time and add to the
-        already extremely cool theme I have going on.</p>
       </div>
       <div class="login-container-login">
         <form class="login-container-login-form" action="login.php" method="post">
