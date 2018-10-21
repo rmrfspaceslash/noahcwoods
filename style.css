@@ -5,7 +5,7 @@ body{
   margin: auto;
   background: white;
   padding: 10px;
-  background-color: #363434;
+  opacity: .6;
   background-image: url('./Pictures/login.jpg');
 }
 
