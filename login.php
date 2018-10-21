@@ -27,7 +27,6 @@
   </head>
   <body class="login-body">
     <div class="login-container">
-        <h1>Noah C. Woods</h1>
       <div class="login-container-login">
         <form class="login-container-login-form" action="login.php" method="post">
           <h1>Login</h1><br/>

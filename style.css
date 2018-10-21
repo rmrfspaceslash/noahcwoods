@@ -16,16 +16,6 @@ body{
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.login-container h1{
-  font-size: 72px;
-  margin-bottom: 0px;
-  margin-top: 2px;
-  color: #f2f2f2;
-  text-shadow: 2px 2px black;
-  padding-left: 15px;
-  padding-top: 15px;
-}
-
 .login-container-login{
   text-align: center;
   width: 25%;
