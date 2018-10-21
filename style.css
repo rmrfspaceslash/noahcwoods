@@ -20,5 +20,6 @@ body{
   text-align: center;
   width: 30%;
   height: 50%;
-  margin: auto auto;
+  margin: auto;
+  margin-top: 300px;
 }
