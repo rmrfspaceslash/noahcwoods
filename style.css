@@ -6,6 +6,7 @@ body{
   margin: auto;
   background: white;
   padding: 10px;
+  background-color: #363434;
 }
 
 .login-container{
@@ -13,7 +14,7 @@ body{
   height: 768px;
   margin: auto;
   padding: 10px;
-  background-color: red;
+  background-color: #363434;
 }
 
 .login-container-login{
