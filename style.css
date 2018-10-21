@@ -53,6 +53,7 @@ body{
 .login-container-login-form input[type=submit]{
   margin: 10px 0px 10px 0px;
   background-color: green;
+  color: white;
   width: 80%;
   height: 30px;
 }
