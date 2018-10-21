@@ -32,4 +32,5 @@ body{
 
 .login-container-login-form input{
   margin: 5px 10px 5px 10px;
+  box-sizing: border-box;
 }
