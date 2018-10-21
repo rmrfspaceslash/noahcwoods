@@ -27,6 +27,9 @@
   </head>
   <body class="login-body">
     <div class="login-container">
+      <div class="login-container-info">
+        <h1> Just checking to see where this text will go </h1>
+      </div>
       <div class="login-container-login">
         <form class="login-container-login-form" action="login.php" method="post">
           <h1>Login</h1><br/>
