@@ -39,7 +39,7 @@
           <input type="text" name="reg_email" placeholder="Provide your e-mail">
           <input type="text" name="reg_firstname" placeholder="Enter your first name">
           <input type="text" name="reg_lastname" placeholder="Enter your last name">
-          <input type="submit" name="submit" value="Login"><br/>
+          <input type="submit" name="register" value="Register"><br/>
           <hr class="login-container-login-form-spacer">
           <input type="submit" name="guest" value="Continue as guest">
         </form>
