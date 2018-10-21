@@ -27,6 +27,12 @@
   </head>
   <body class="login-body">
     <div class="login-container">
+      <div class="login-container-info">
+        <h1>Welcome!</h1>
+        <p>This is a fun little website I have created. <br/>
+        Hopefully I can improve this website over time and add to the
+        already extremely cool theme I have going on.</p>
+      </div>
       <div class="login-container-login">
         <form class="login-container-login-form" action="login.php" method="post">
           <h1>Login</h1><br/>
