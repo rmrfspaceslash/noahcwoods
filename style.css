@@ -38,13 +38,16 @@ body{
   box-sizing: border-box;
   border-style: hidden;
   width: 70%;
-  height: 25%;
+  height: 35%;
   font-size: 100%;
+  text-align: center;
 }
 
 .login-container-login-form input[type=submit]{
   margin: 10px 0px 10px 0px;
   background-color: green;
+  width: 80%;
+  height: 45%;
 }
 
 .login-container-login-form hr{
