@@ -60,11 +60,11 @@ body{
 
 .login-container-login-form-divider{
   margin: 15px 0px 5px 0px;
-  width: 70%;
+  width: 100%;
 }
 
 .login-container-login-form-spacer{
   margin: 90px 0px 5px 0px;
-  width: 70%;
+  width: 100%;
   color: #031d40;
 }
