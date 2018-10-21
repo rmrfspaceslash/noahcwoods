@@ -18,8 +18,8 @@ body{
 
 .login-container-info{
   float: left;
-  width: 40%;
-  height: 50%;
+  width: 50%;
+  height: 90%;
   margin-left: 25px;
   background-color: rgba(0, 0, 0, 0.3);
   border-style: solid;
