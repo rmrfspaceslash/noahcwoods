@@ -16,7 +16,5 @@
 }
 
 .login-container-login{
-  position: relative;
-  width: 30%;
-  height: 50%;
+  text-align: center;
 }
