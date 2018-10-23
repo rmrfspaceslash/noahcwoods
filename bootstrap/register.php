@@ -40,7 +40,7 @@
             </li>
             <li class="nav-item">
               <form action="register.php" method="post">
-                <br/><input class="btn btn-primary" type="submit" name="" value="Login">
+                <input class="btn btn-primary" type="submit" name="" value="Login" width="100%" height="100%">
               </form>
             </li>
           </ul>
