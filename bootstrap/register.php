@@ -1,7 +1,7 @@
 <?php
-//require('db.php');
+require('db.php');
 
-if (!isset($_SESSION()){
+if (!isset($_SESSION())){
   session_Start();
 }
 
@@ -23,8 +23,8 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
   $sql = "INSERT INTO users (email,username,password) VALUES ('$email','$username','$password')";
   $db->exec($sql);
 }
-
  ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
