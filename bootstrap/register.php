@@ -21,7 +21,7 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
 
   //add entry into database
   $sql = "INSERT INTO users (email,username,password) VALUES ('$email','$username','$password')";
-  $db->query($sql);
+  $db->exec($sql);
 }
 
  ?>
