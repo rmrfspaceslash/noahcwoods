@@ -51,7 +51,7 @@
     <!-- Header -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
+        <div class="">
           <h2 class="mx-auto my-0 text-uppercase">Register Now</h2>
           <form class="form-inline d-flex" action="register.php" method="post">
             <div class="">
