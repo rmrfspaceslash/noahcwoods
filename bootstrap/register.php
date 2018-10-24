@@ -35,9 +35,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
             <li class="nav-item m-xl-auto">
               <form class="m-xl-auto" action="register.php" method="post">
                 <input class="btn btn-primary m-xl-auto" type="submit" name="" value="Login">
