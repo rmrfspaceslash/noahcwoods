@@ -1,11 +1,11 @@
 <?php
 
-$pdo = new PDO('sqlite:../SQLite/php.db');
+$db = new PDO('sqlite:../SQLite/php.db');
+
+$memory_db = new PDO('sqlite::memory:');
 
 $sql = "INSERT into users (email, username, password) VALUES ("noahcwoods@gmail.com", "noahcwoods", "testpass")";
 
-$myPDO->query($sql);
-
-echo "1234";
+$db->exec($sql);
 
  ?>
