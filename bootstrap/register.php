@@ -52,9 +52,21 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">Networking Major</h1>
-          <h2 class="text-light mx-auto mt-2 mb-5">Studying Networking at South HIlls School of Business and Technology</h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger">About</a>
+          <h2 class="mx-auto my-0 text-uppercase">Register Now</h2>
+          <form class="m-xl-auto" action="register.php" method="post">
+            <div class="mx-auto text-center">
+              <input type="text" name="email" placeholder="Enter your email">
+            </div>
+            <div class="mx-auto text-center">
+              <input type="text" name="username" placeholder="Enter your username">
+            </div>
+            <div class="mx-auto text-center">
+              <input type="password" name="password" placeholder="Enter your password">
+            </div>
+            <div class="mx-auto text-center">
+              <input class="btn btn-primary m-xl-auto" type="submit" name="register" value="Register">
+            </div>
+          </form>
         </div>
       </div>
     </header>
