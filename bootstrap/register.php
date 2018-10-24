@@ -48,11 +48,11 @@
       </div>
     </nav>
 
-    <!-- Header -->
+    <!-- Register -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">Register Now</h1>
+          <h1 class="masthead mx-auto my-0 text-uppercase">Register Now</h1>
           <form action="register.php" method="post">
             <div class="mx-auto text-center">
               <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="email" placeholder="Enter your email">
