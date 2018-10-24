@@ -11,10 +11,10 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
   $password = $_POST['password'];
 
   //Filter email
-  $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+  //$email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
   //Filter username
-  $username = filter_var($username, FILTER_SANITIZE_STRING);
+  //$username = filter_var($username, FILTER_SANITIZE_STRING);
 
   //encrypt $password
   $password = password_hash($password, PASSWORD_BCRYPT);
