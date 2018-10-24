@@ -6,4 +6,6 @@ $sql = "INSERT into users (email, username, password) VALUES ("noahcwoods@gmail.
 
 $db->exec($sql);
 
+echo "hello";
+
  ?>
