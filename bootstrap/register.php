@@ -52,7 +52,7 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h3 class="mx-auto my-0 text-uppercase text-light">Register Now</h3><br/>
+          <h3 class="h1 mx-auto my-0 text-uppercase text-light">Register Now</h3><br/>
           <form action="register.php" method="post">
             <div class="mx-auto text-center">
               <input class="form-control flex-fill" type="text" name="email" placeholder="Enter your email">
