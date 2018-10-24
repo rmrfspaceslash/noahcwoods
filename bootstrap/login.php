@@ -53,7 +53,7 @@
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h3 class="display-4 mx-auto my-0 text-uppercase text-white">Login Now</h3><br/>
-          <form action="register.php" method="post">
+          <form action="login.php" method="post">
             <div class="mx-auto text-center">
               <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="username">
             </div><br/>
