@@ -55,10 +55,10 @@
           <h2 class="mx-auto my-0 text-uppercase">Register Now</h2>
           <form class="form-inline d-flex" action="register.php" method="post">
             <div class="text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="email" placeholder="Enter your email">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="email" placeholder="Enter your email"><br/>
             </div>
             <div class="text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="Enter your username">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="Enter your username"><br/>
             </div>
             <div class="text-center">
               <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="password" name="password" placeholder="Enter your password">
