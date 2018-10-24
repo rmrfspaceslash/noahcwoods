@@ -17,11 +17,11 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
   //$username = filter_var($username, FILTER_SANITIZE_STRING);
 
   //encrypt $password
-  $password = password_hash($password, PASSWORD_BCRYPT);
+  //$password = password_hash($password, PASSWORD_BCRYPT);
 
   //add entry into database
-  $sql = "INSERT INTO users (email,username,password) VALUES ('$email','$username','$password')";
-  $db->exec($sql);
+  //$sql = "INSERT INTO users (email,username,password) VALUES ('$email','$username','$password')";
+  //$db->exec($sql);
 }
  ?>
 
