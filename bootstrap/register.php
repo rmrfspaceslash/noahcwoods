@@ -38,9 +38,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
-            <li class="nav-item">
-              <form action="register.php" method="post">
-                <input class="btn btn-primary vcenter" type="submit" name="" value="Login">
+            <li class="nav-item m-xl-auto">
+              <form class="m-xl-auto" action="register.php" method="post">
+                <input class="btn btn-primary m-xl-auto" type="submit" name="" value="Login">
               </form>
             </li>
           </ul>
