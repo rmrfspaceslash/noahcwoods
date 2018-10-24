@@ -1,9 +1,9 @@
 <?php
 require('db.php');
 
-//if (!isset($_SESSION())){
-//  session_start();
-//}
+if (!isset($_SESSION)) {
+  session_start();
+}
 
 if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] != null) {
   $email = $_POST['email'];
