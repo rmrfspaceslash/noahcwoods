@@ -1,3 +1,30 @@
+<?php
+require('db.php');
+
+if (!isset($_SESSION()){
+  session_Start();
+}
+
+if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] != null) {
+  $email = $_POST['email'];
+  $username = $_POST['username'];
+  $password = $_POST['password'];
+
+  //Filter email
+  $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+
+  //Filter username
+  $username = filter_var($username, FILTER_SANITIZE_STRING);
+
+  //encrypt $password
+  $password = password_hash($password, PASSWORD_BCRYPT);
+
+  //add entry into database
+  $sql = "INSERT INTO users (email,username,password) VALUES ('$email','$username','$password')";
+  $db->query($sql);
+}
+
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
