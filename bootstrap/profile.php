@@ -71,17 +71,6 @@ if ($_SESSION['loggedin'] = null) {
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase text-white">Your Profile</h1><br/>
-          <form action="login.php" method="post">
-            <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="username">
-            </div><br/>
-            <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="password" name="password" placeholder="password">
-            </div><br/>
-            <div class="mx-auto text-center">
-              <input class="btn btn-primary m-xl-auto" type="submit" name="login" value="Login">
-            </div>
-          </form>
         </div>
       </div>
     </header>
