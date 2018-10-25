@@ -40,7 +40,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
     }else {
 
       //stay on login page if not successfull login
-      header("location: login.php");
+      header("location: profile.php");
     }
   }
 }
