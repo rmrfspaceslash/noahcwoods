@@ -18,7 +18,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
   //check for valid login credentials
 
   //Filter email for injections
-  $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+  //$email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
   //grab fields from database
   $sql = "SELECT email, password, username FROM users where email='$email'";
@@ -36,11 +36,11 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
       $_SESSION['username'] = $row['username'];
 
       //header to successfull login page
-      header("Location: index.html");
+      //header("Location: index.html");
     }else {
 
       //stay on login page if not successfull login
-      header("location: profile.php");
+      //header("location: profile.php");
     }
   }
 }
