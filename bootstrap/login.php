@@ -1,12 +1,12 @@
 <?php
 
 //get db connection
-require('php.db');
+// require('db.php');
 
 //start session
-if (!isset($_SESSION)) {
-  session_start();
-}
+//if (!isset($_SESSION)) {
+//  session_start();
+//}
 
 //check information was submitted into the fields
 //if (isset($_POST['email'] && isset($_POST['password']))) {

@@ -1,5 +1,5 @@
 <?php
-require('php.db');
+require('db.php');
 
 //start session
 if (!isset($_SESSION)) {
