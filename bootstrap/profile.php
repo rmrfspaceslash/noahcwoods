@@ -70,7 +70,7 @@ if ($_SESSION['loggedin'] = null) {
     <!-- NA -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
+        <div class="">
           <img src="img/demo-image-01.jpg" class="img-thumbnail col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 jumbotron">
             <label>First Name: </label><br>
