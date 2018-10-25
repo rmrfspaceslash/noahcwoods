@@ -9,7 +9,7 @@ if (!isset($_SESSION)) {
 }
 
 //check information was submitted into the fields
-//if (isset($_POST['email'] && isset($_POST['password']))) {
+if ($_POST['email'] != null && $_POST['password'] != null) {
 /*
   //set post to variables
   $username = $_POST['email'];
@@ -43,7 +43,7 @@ if (!isset($_SESSION)) {
       header("location: login.php");
     }
   } */
-// }
+}
  ?>
 
 <!DOCTYPE html>
@@ -103,7 +103,7 @@ if (!isset($_SESSION)) {
           <h3 class="display-4 mx-auto my-0 text-uppercase text-white">Login Now</h3><br/>
           <form action="login.php" method="post">
             <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="username">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="email" placeholder="email">
             </div><br/>
             <div class="mx-auto text-center">
               <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="password" name="password" placeholder="password">
