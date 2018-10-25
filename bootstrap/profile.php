@@ -73,7 +73,7 @@ if ($_SESSION['loggedin'] = null) {
           <h3 class="display-4 mx-auto my-0 text-uppercase text-white">Your Profile</h3><br/>
         </div>
         <div class="mx-autp text-center">
-          <img src="img/demo-image-01.jpg" class="img-circle img-no-padding img-responsive">
+          <img src="img/demo-image-01.jpg" class="img-thumbnail">
         </div>
         <div class="col-md-6">
           <h4 class="text-light display-4">About</h4>
