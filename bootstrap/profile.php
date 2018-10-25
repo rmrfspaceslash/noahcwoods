@@ -70,7 +70,14 @@ if ($_SESSION['loggedin'] = null) {
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">Your Profile</h1><br/>
+          <h1 class="mx-auto my-0 text-uppercase">Your Profile</h1>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <ul>
+              <li>1</li><br>
+              <li>2</li><br>
+              <li>3</li><br>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
