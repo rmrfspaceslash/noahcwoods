@@ -1,3 +1,17 @@
+<?php
+//start session
+if (!isset($_SESSION)) {
+  session_start();
+}
+
+if ($_POST['register'] != null) {
+  header("Location: register.php");
+}elseif ($_POST['logout'] != null) {
+  $_SESSION['loggedin'] = false;
+}
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,8 +64,16 @@
               <a class="nav-link js-scroll-trigger" href="login.php">Login</a>
             </li>
             <li class="nav-item m-xl-auto">
-              <form class="m-xl-auto" action="register.php" method="post">
-                <input class="btn btn-primary m-xl-auto" type="submit" name="" value="Register">
+              <form class="m-xl-auto" action="" method="post">
+                <?php if ($_SESSION['loggedin'] === true) {
+                ?>
+                <input class="btn btn-primary m-xl-auto" type="submit" name="register" value="Register">
+                <?php
+                  }else {
+                 ?>
+                 <input class="btn btn-danger m-xl-auto" type="submit" name="logout" value="Logout">
+                 <?php } ?>
+
               </form>
             </li>
           </ul>
@@ -64,7 +86,7 @@
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">Networking major</h1>
-          <h2 class="text-light mx-auto mt-2 mb-5">Studying Networking at South HIlls School of Business and Technology</h2>
+          <h2 class="text-light mx-auto mt-2 mb-5">Studying Networking at South Hills School of Business and Technology</h2>
           <a href="#about" class="btn btn-primary js-scroll-trigger">About</a>
         </div>
       </div>
