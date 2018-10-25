@@ -9,7 +9,7 @@ if (!isset($_SESSION)) {
 }
 
 //check information was submitted into the fields
-if (isset($_POST['email'] && isset($_POST['password']))) {
+//if (isset($_POST['email'] && isset($_POST['password']))) {
 /*
   //set post to variables
   $username = $_POST['email'];
