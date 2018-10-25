@@ -73,9 +73,9 @@ if ($_SESSION['loggedin'] = null) {
         <div class="">
           <img src="img/demo-image-01.jpg" class="mx-auto img-thumbnail col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 jumbotron">
-            <label>First Name: </label><br>
-            <label>Last Name: </label><br>
-            <label>About you: </label><br>
+            <h3>First Name: </h3><br>
+            <h3>Last Name: </h3><br>
+            <h3>About you: </h3><br>
           </div>
         </div>
       </div>
