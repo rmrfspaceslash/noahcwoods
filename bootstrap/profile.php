@@ -72,12 +72,10 @@ if ($_SESSION['loggedin'] = null) {
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <img src="img/demo-image-01.jpg" class="img-thumbnail col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-            <ul>
-              <li>1</li><br>
-              <li>2</li><br>
-              <li>3</li><br>
-            </ul>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 jumbotron">
+            <label>First Name: </label>
+            <label>Last Name: </label>
+            <label>About you: </label>
           </div>
         </div>
       </div>
