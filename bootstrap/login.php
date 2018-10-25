@@ -16,34 +16,32 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
   $password = $_POST['password'];
 
   //check for valid login credentials
-
   //Filter email for injections
-  //$email = filter_var($email, FILTER_SANITIZE_EMAIL);
+  $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
   //grab fields from database
   $sql = "SELECT email, password, username FROM users where email='$email'";
   $result = $db->query($sql);
-  vardump($result);
 
   //Grab database information and verify encrypted password
   //No need to check email here because email is included in where clause (wrong email = no query / incorrect query)
-  //while ($row = $result->fetch_assoc()) {
-    //if (password_verify($password, $row['password'])) {
+  while ($row = $result->fetchArray()) {
+    if (password_verify($password, $row['password'])) {
 
       //Controller variable for access to other pages
-      //$_SESSION['loggedin'] = true;
+      $_SESSION['loggedin'] = true;
 
       //associate username
-      //$_SESSION['username'] = $row['username'];
+      $_SESSION['username'] = $row['username'];
 
       //header to successfull login page
       //header("Location: index.html");
-    //}else {
+    }else {
 
       //stay on login page if not successfull login
       //header("location: profile.php");
-    //}
-  //}
+    }
+  }
 }
  ?>
 
