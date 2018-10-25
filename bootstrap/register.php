@@ -42,6 +42,7 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
     <title>Register</title>
 
     <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
