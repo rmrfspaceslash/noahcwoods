@@ -71,7 +71,7 @@ if ($_SESSION['loggedin'] = null) {
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <img src="img/demo-image-1.jpg" class="img-thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="img/demo-image-01.jpg" class="img-thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 jumbotron">
             <ul>
               <li>1</li><br>
