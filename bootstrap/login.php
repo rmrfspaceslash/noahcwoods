@@ -107,12 +107,8 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
               <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="email" placeholder="email">
             </div><br/>
             <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtNewPassword" type="password" name="password" placeholder="password">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="password" name="password" placeholder="password">
             </div><br/>
-            <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtConfirmPassword" onChange="checkPasswordMatch();" type="password" name="checkpassword" placeholder="password">
-            </div><br/>
-            <div class=class="registrationFormAlert" id="divCheckPasswordMatch"></div><br/>
             <div class="mx-auto text-center">
               <input class="btn btn-primary m-xl-auto" type="submit" name="login" value="Login">
             </div>
@@ -193,7 +189,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.js"></script>
+    <script src="js/grayscale.min.js"></script>
 
   </body>
 
