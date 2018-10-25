@@ -39,7 +39,7 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Noah C. Woods</title>
+    <title>Register</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

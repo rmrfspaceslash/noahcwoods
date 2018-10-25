@@ -22,10 +22,11 @@ if ($_SESSION['loggedin'] = null) {
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Profile page for Noah Woods' website">
+    <meta name="author" content="Noah C. Woods">
+    <meta name="keywords" content="Noah, Noah Woods, Noah C. Woods, profile">
 
-    <title>Noah C. Woods</title>
+    <title>Profile</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -65,22 +66,20 @@ if ($_SESSION['loggedin'] = null) {
       </div>
     </nav>
 
-    <!-- Register -->
+    <!-- NA -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h3 class="display-4 mx-auto my-0 text-uppercase text-white">Login Now</h3><br/>
-          <form action="login.php" method="post">
-            <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="username">
-            </div><br/>
-            <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="password" name="password" placeholder="password">
-            </div><br/>
-            <div class="mx-auto text-center">
-              <input class="btn btn-primary m-xl-auto" type="submit" name="login" value="Login">
-            </div>
-          </form>
+          <h3 class="display-4 mx-auto my-0 text-uppercase text-white">Your Profile</h3><br/>
+        </div>
+        <div class="mx-autp text-center">
+          <img src="img/demo-image-01.jpg" class="img-circle img-no-padding img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-light display-4">About</h4>
+        </div>
+        <div class="cold-md-6">
+          <h4 class="text-light display-4">About</h4>
         </div>
       </div>
     </header>
