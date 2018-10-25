@@ -67,8 +67,8 @@ if ($_SESSION['loggedin'] = null) {
     </nav>
 
     <!-- NA -->
-    <header class="masthead">
-      <div class="container d-flex h-100 align-items-center jumbotron">
+    <header>
+      <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">Your Profile</h1><br/>
         </div>
