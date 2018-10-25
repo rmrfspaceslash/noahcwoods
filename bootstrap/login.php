@@ -22,7 +22,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
 
   //grab fields from database
   $sql = "SELECT email, password, username FROM users where email='$email'";
-  $result = $db->exec($sql);
+  $result = $db->query($sql);
 
   //Grab database information and verify encrypted password
   //No need to check email here because email is included in where clause (wrong email = no query / incorrect query)
