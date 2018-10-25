@@ -1,7 +1,7 @@
 <?php
 
 //get db connection
-require('db.php');
+require('php.db');
 
 //start session
 if (!isset($_SESSION)) {
