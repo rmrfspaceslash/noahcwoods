@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 //get db connection
 require('db.php');
@@ -8,51 +8,12 @@ if (!isset($_SESSION)) {
   session_start();
 }
 
-//check information was submitted into the fields
-if (isset($_POST['email'] && isset($_POST['password']))) {
-
-  //set post to variables
-  $username = $_POST['email'];
-  $password = $_POST['password'];
-
-  //check for valid login credentials
-
-  //Filter email for injections
-  $email = filter_var($email, FILTER_SANITIZE_EMAIL);
-
-  //grab fields from database
-  $sql = "SELECT email, password, username FROM users where email='$email'";
-  $result = $db->exec($sql);
-
-  //Grab database information and verify encrypted password
-  //No need to check email here because email is included in where clause (wrong email = no query / incorrect query)
-  while ($row = $result->fetch_assoc()) {
-    if (password_verify($password, $row['password'])) {
-
-      //Controller variable for access to other pages
-      $_SESSION['loggedin'] = true;
-
-      //associate username
-      $_SESSION['username'] = $row['username'];
-
-      //header to successfull login page
-      header("Location: index.html");
-    }else {
-
-      //stay on login page if not successfull login
-      header("location: login.php");
-    }
-  }
+//send to login if not logged in
+if ($_SESSION['loggedin'] = null) {
+  header("Location: Login.php");
 }
 
-
-
-
  ?>
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">

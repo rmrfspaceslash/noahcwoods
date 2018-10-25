@@ -1,10 +1,12 @@
 <?php
 require('db.php');
 
+//start session
 if (!isset($_SESSION)) {
   session_start();
 }
 
+//check if register fields have been submitted
 if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] != null) {
   $email = $_POST['email'];
   $username = $_POST['username'];
@@ -22,6 +24,8 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
   //add entry into database
   $sql = "INSERT INTO users (email,username,password) VALUES ('$email','$username','$password')";
   $db->exec($sql);
+
+  header("Location: login.php");
 }
  ?>
 
