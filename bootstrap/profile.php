@@ -76,7 +76,7 @@ if ($_SESSION['loggedin'] = null) {
             <h3 class="col-lg-4">First Name: </h3>
             <h3 class="col-lg-4">Last Name: </h3>
             <h3 class="col-lg-4">About you: </h3>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="align-right col-lg-6 col-md-6 col-sm-6 col-xs-6">
               <form class="form-control" action="index.html" method="post">
                 <input type="text" name="firstname" value="Noah">
                 <input type="text" name="lastname" value="Woods">
