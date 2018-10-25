@@ -193,7 +193,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/grayscale.js"></script>
 
   </body>
 
