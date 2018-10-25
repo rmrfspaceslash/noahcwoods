@@ -82,7 +82,7 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
     <!-- Register -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
+        <div class="mx-auto text-center jumbotron">
           <h3 class="display-4 mx-auto my-0 text-uppercase text-white">Register Now</h3><br/>
           <form action="register.php" method="post">
             <div class="mx-auto text-center">
