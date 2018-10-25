@@ -73,9 +73,9 @@ if ($_SESSION['loggedin'] = null) {
         <div class="">
           <img src="img/demo-image-01.jpg" class="align-middle img-thumbnail col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 jumbotron">
-            <h3 class="col-lg-6">First Name: </h3><br>
-            <h3 class="col-lg-6">Last Name: </h3><br>
-            <h3 class="col-lg-6">About you: </h3><br>
+            <h3 class="col-lg-4">First Name: </h3>
+            <h3 class="col-lg-4">Last Name: </h3>
+            <h3 class="col-lg-4">About you: </h3>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
               <form class="form-control" action="index.html" method="post">
                 <input type="text" name="firstname" value="Noah">
