@@ -12,7 +12,7 @@ if (!isset($_SESSION)) {
 if ($_POST['email'] != null && $_POST['password'] != null) {
 
   //set post to variables
-  $username = $_POST['email'];
+  $email = $_POST['email'];
   $password = $_POST['password'];
 
   //check for valid login credentials
@@ -42,7 +42,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
       //stay on login page if not successfull login
       header("location: login.php");
     }
-  } 
+  }
 }
  ?>
 
