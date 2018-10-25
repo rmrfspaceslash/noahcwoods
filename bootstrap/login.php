@@ -35,7 +35,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
       $_SESSION['username'] = $row['username'];
 
       //header to successfull login page
-      header("Location: index.html");
+      header("Location: index.php");
     }else {
 
       //stay on login page if not successfull login
