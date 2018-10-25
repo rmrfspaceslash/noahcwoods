@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 //get db connection
 require('db.php');
@@ -40,19 +40,11 @@ if (isset($_POST['email'] && isset($_POST['password']))) {
     }else {
 
       //stay on login page if not successfull login
-      header("location: login.php");
+      //header("location: login.php");
     }
   }
 }
-
-
-
-
  ?>
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
