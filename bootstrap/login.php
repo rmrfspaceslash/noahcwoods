@@ -99,7 +99,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
     <!-- Register -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
+        <div class="mx-auto text-center jumbotron">
           <h3 class="display-4 mx-auto my-0 text-uppercase text-white">Login Now</h3><br/>
           <form action="login.php" method="post">
             <div class="mx-auto text-center">
