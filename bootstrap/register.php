@@ -27,6 +27,13 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
 
   header("Location: login.php");
 }
+
+//add column active to db. set active to 0 by default.
+//send email verification to user, after link has been click, set active to 1.
+//active 0 will display <alert> informing user their email has not been activated and they need to verify interface
+//Include email resend in the alert. Inform the user they will be logged out once pressing ok.
+//active 1 will display nothing. Give them a congratz message after pressing on the link to verify their email.
+
  ?>
 
 <!DOCTYPE html>
