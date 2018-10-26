@@ -107,7 +107,7 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
             </div><br/>
             <div class=class="registrationFormAlert" id="divCheckPasswordMatch"></div><br/>
             <div class="mx-auto text-center">
-              <input class="btn btn-primary m-xl-auto" type="submit" name="register" value="Register">
+              <input id="registerbutton" class="btn btn-primary m-xl-auto" type="submit" name="register" value="Register">
             </div>
           </form>
         </div>

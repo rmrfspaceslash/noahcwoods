@@ -89,7 +89,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
             </li>
             <li class="nav-item m-xl-auto">
               <form class="m-xl-auto" action="register.php" method="post">
-                <input id="registerbutton" class="btn btn-primary m-xl-auto" type="submit" name="" value="Register">
+                <input class="btn btn-primary m-xl-auto" type="submit" name="" value="Register">
               </form>
             </li>
           </ul>
