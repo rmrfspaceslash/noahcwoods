@@ -124,7 +124,7 @@ if ($_POST['register'] != null) {
             <div class="featured-text text-center text-lg-left">
               <h4>noahcwoods.com</h4>
               <p class="text-black-50 mb-0">noahcwoods.com was created to demonstrate my knowledge in web-design.
-              This website includes a login and register page. Registering requires a valid email address. Although registering does
+              This website includes a login and register page. Registering will require a valid email address in the next update. Although registering does
               not offer anything yet, it was moreso created to demonstrate basic php and javascript knowledge as well as the ability
               to link php to SQLite.</p>
             </div>
