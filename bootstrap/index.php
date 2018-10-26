@@ -104,12 +104,10 @@ if ($_POST['register'] != null) {
           </div>
           <div class="col-lg-6">
             <h2 class="text-white mb-4">Accomplishments</h2>
-            <ul class="text-white">
-              <li>The creation of noahcwoods.com</li><br/>
-              <li>NOAHOS (informally known as Noah's Open And Honest Operation System)</li><br/>
-              <li>Graduation from Philipsburg-Osceola area High School</li><br/>
-              <li>Soon to graduate from South Hills School of Business and Technology</li>
-            </ul>
+              <p>The creation of noahcwoods.com</p><br/>
+              <p>NOAHOS (informally known as Noah's Open And Honest Operation System)</p><br/>
+              <p>Graduation from Philipsburg-Osceola area High School</p><br/>
+              <p>Soon to graduate from South Hills School of Business and Technology</p>
         </div>
       </div>
     </section>
