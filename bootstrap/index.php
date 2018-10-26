@@ -105,7 +105,7 @@ if ($_POST['register'] != null) {
           <div class="col-lg-6">
             <h2 class="text-white mb-4">Accomplishments</h2>
               <p class="text-white-50">-The creation of noahcwoods.com <br/>
-              -NOAHOS (informally known as Noah's Open And Honest Operation System) <br/>
+              -NOAHOS (creation currently in progress, refer to projects) <br/>
               -Graduation from Philipsburg-Osceola area High School <br/>
               -Soon to graduate from South Hills School of Business and Technology</p>
         </div>
