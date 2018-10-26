@@ -47,12 +47,32 @@ function checkPasswordMatch() {
 
     if (password != confirmPassword)
         $("#divCheckPasswordMatch").html("Passwords do not match!");
-        $("#registerbutton").prop('disabled', true)
     else
         $("#divCheckPasswordMatch").html("Passwords match.");
-        $("#registerbutton").prop('disabled', false)
 }
 
 $(document).ready(function () {
    $("#txtConfirmPassword").keyup(checkPasswordMatch);
 });
+
+$("#txtNewPassword").keyup(function () {
+    var user_pass = $("#txtNewPassword").val();
+    var user_pass2 = $("#txtConfirmPassword").val();
+
+    if (user_pass == user_pass2) {
+      $("#registerbutton").prop('disabled', false)//use prop()
+    } else {
+      $("#registerbutton").prop('disabled', true)//use prop()
+    }
+  });
+
+  $("#txtConfirmPassword").keyup(function () {
+    var user_pass = $("#txtNewPassword").val();
+    var user_pass2 = $("#txtConfirmPassword").val();
+
+    if (user_pass == user_pass2) {
+      $("#registerbutton").prop('disabled', false)//use prop()
+    } else {
+      $("#registerbutton").prop('disabled', true)//use prop()
+    }
+  });
