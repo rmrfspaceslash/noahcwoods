@@ -119,8 +119,10 @@ if ($_POST['register'] != null) {
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <h4>noahcwoods.com</h4>
-              <p class="text-black-50 mb-0">noahcwoods.com was created by me to demonstrate my knowledge in web-design.
-              This website utilizes a bootstrap theme and will include a register/login page utilizing php and SQLite.</p>
+              <p class="text-black-50 mb-0">noahcwoods.com was created to demonstrate my knowledge in web-design.
+              This website includes a login and register page. Registering requires a valid email address. Although registering does
+              not offer anything yet, it was moreso created to demonstrate basic php and javascript knowledge as well as the ability
+              to link php to SQLite.</p>
             </div>
           </div>
         </div>
