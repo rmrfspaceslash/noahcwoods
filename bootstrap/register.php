@@ -10,7 +10,7 @@ if (!isset($_SESSION)) {
 if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] != null) {
   $email = $_POST['email'];
   $username = $_POST['username'];
-  $password = $_POST['password'];
+  $password = $_POST['password[user_pass]'];
 
   //Filter email
   $email = filter_var($email, FILTER_SANITIZE_EMAIL);
