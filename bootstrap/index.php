@@ -61,16 +61,15 @@ if ($_POST['register'] != null) {
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
+              <?php if ($_SESSION['loggedin'] === false) { ?>
               <a class="nav-link js-scroll-trigger" href="login.php">Login</a>
+            <?php }else {} ?>
             </li>
             <li class="nav-item m-xl-auto">
               <form class="m-xl-auto" action="" method="post">
-                <?php if ($_SESSION['loggedin'] === false) {
-                ?>
+                <?php if ($_SESSION['loggedin'] === false) { ?>
                 <input class="btn btn-primary m-xl-auto" type="submit" name="register" value="Register">
-                <?php
-                  }else {
-                 ?>
+                <?php }else { ?>
                  <input class="btn btn-danger m-xl-auto" type="submit" name="logout" value="Logout">
                  <?php } ?>
 
