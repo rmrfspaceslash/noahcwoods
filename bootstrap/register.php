@@ -10,7 +10,7 @@ if (!isset($_SESSION)) {
 if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] != null) {
   $email = $_POST['email'];
   $username = $_POST['username'];
-  $password = $_POST['password[user_pass]'];
+  $password = $_POST['password'];
 
   //Filter email
   $email = filter_var($email, FILTER_SANITIZE_EMAIL);
@@ -100,7 +100,7 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
               <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="Enter your username" required="required">
             </div><br/>
             <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtNewPassword" type="password" name="password[user_pass]" placeholder="Enter your password" required="required">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtNewPassword" type="password" name="password" placeholder="Enter your password" required="required">
             </div><br/>
             <div class="mx-auto text-center">
               <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtConfirmPassword" onChange="checkPasswordMatch();" type="password" name="checkpassword[user_pass2]" placeholder="Confirm your password" required="required">
