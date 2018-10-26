@@ -98,11 +98,18 @@ if ($_POST['register'] != null) {
         <div class="row">
           <div class="col-lg-6">
             <h2 class="text-white mb-4">Aspirations</h2>
-            <p class="text-white-50"></p>
+            <p class="text-white-50">After graduating from SHSBT (South Hills School of Business and Technology) I plan to secure a job
+            in my field (Networking). However, I will not limit myself to Networking. This website is a demonstration of my knowledge in programming and
+            database creation/administration.</p>
           </div>
           <div class="col-lg-6">
             <h2 class="text-white mb-4">Accomplishments</h2>
-            <p class="text-wite mb-50"></p>
+            <ul class="text-white">
+              <li>The creation of noahcwoods.com</li><br/>
+              <li>NOAHOS (informally known as Noah's Open And Honest Operation System)</li><br/>
+              <li>Graduation from Philipsburg-Osceola area High School</li><br/>
+              <li>Soon to graduate from South Hills School of Business and Technology</li>
+            </ul>
         </div>
       </div>
     </section>
