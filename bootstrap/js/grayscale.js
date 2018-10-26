@@ -60,9 +60,9 @@ $("#txtNewPassword").keyup(function () {
     var user_pass2 = $("#txtConfirmPassword").val();
 
     if (user_pass == user_pass2) {
-      $("#enter").prop('disabled', false)//use prop()
+      $("#registerbutton").prop('disabled', false)//use prop()
     } else {
-      $("#enter").prop('disabled', true)//use prop()
+      $("#registerbutton").prop('disabled', true)//use prop()
     }
   });
 
@@ -71,8 +71,8 @@ $("#txtNewPassword").keyup(function () {
     var user_pass2 = $("#txtConfirmPassword").val();
 
     if (user_pass == user_pass2) {
-      $("#enter").prop('disabled', false)//use prop()
+      $("#registerbutton").prop('disabled', false)//use prop()
     } else {
-      $("#enter").prop('disabled', true)//use prop()
+      $("#registerbutton").prop('disabled', true)//use prop()
     }
   });
