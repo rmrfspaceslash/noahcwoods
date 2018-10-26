@@ -160,7 +160,7 @@ if ($_POST['email'] != null && $_POST['password'] != null) {
         </div>
 
         <div class="social d-flex justify-content-center">
-          <a href="https://www.instagram.com/noahceifrbxh/?hl=en" class="mx-2">
+          <a href="https://www.instagram.com/noahcwoods" class="mx-2">
             <i class="fab fa-instagram"></i>
           </a>
           <a href="https://www.facebook.com/noah.woods.921" class="mx-2">
