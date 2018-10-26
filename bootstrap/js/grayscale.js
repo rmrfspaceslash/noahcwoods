@@ -54,3 +54,25 @@ function checkPasswordMatch() {
 $(document).ready(function () {
    $("#txtConfirmPassword").keyup(checkPasswordMatch);
 });
+
+$("#txtNewPassword").keyup(function () {
+    var user_pass = $("#txtNewPassword").val();
+    var user_pass2 = $("#txtConfirmPassword").val();
+
+    if (user_pass == user_pass2) {
+      $("#enter").prop('disabled', false)//use prop()
+    } else {
+      $("#enter").prop('disabled', true)//use prop()
+    }
+  });
+
+  $("#txtConfirmPassword").keyup(function () {
+    var user_pass = $("#txtNewPassword").val();
+    var user_pass2 = $("#txtConfirmPassword").val();
+
+    if (user_pass == user_pass2) {
+      $("#enter").prop('disabled', false)//use prop()
+    } else {
+      $("#enter").prop('disabled', true)//use prop()
+    }
+  });
