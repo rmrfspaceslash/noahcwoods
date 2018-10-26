@@ -139,7 +139,7 @@ if ($_POST['register'] != null) {
                   <h4 class="text-white">NOAHOS</h4>
                   <p class="mb-0 text-white-50">NOAHOS was started as a way to better understand the linux operating system. This OS was created following the
                     Linux From Scratch guide book and is still currently in development. A download will be listed after completion of NOAHOS.</p><br/>
-                    <a class="nav-item ml-auto" href="#">Linux From Scratch</a>
+                    <a class="nav-item ml-auto" href="http://www.linuxfromscratch.org/">Linux From Scratch</a>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
               </div>
