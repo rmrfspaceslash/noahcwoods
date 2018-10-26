@@ -105,7 +105,7 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
             <div class="mx-auto text-center">
               <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtConfirmPassword" onChange="checkPasswordMatch();" type="password" name="checkpassword" placeholder="Confirm your password">
             </div><br/>
-            <div class=class="registrationFormAlert" id="divCheckPasswordMatch"></div><br/>
+            <div class=class="registrationFormAlert <?php if ($_POST['password'] === $_POST['checkpassword'] {}else{?> hidden <?php}?>" id="divCheckPasswordMatch"></div><br/>
             <div class="mx-auto text-center">
               <input class="btn btn-primary m-xl-auto" type="submit" name="register" value="Register">
             </div>
