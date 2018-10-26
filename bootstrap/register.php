@@ -94,18 +94,18 @@ if ($_POST['email'] != null && $_POST['username'] != null && $_POST['password'] 
           <h3 class="display-4 mx-auto my-0 text-uppercase">Register Now</h3><br/>
           <form action="register.php" method="post">
             <div class="mx-auto text-center">
-              <input class="form-control flex-fill" type="text" name="email" placeholder="Enter your email">
+              <input class="form-control flex-fill" type="text" name="email" placeholder="Enter your email" required="required">
             </div><br/>
             <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="Enter your username">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" name="username" placeholder="Enter your username" required="required">
             </div><br/>
             <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtNewPassword" type="password" name="password" placeholder="Enter your password">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtNewPassword" type="password" name="password" placeholder="Enter your password" required="required">
             </div><br/>
             <div class="mx-auto text-center">
-              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtConfirmPassword" onChange="checkPasswordMatch();" type="password" name="checkpassword" placeholder="Confirm your password">
+              <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="txtConfirmPassword" onChange="checkPasswordMatch();" type="password" name="checkpassword" placeholder="Confirm your password" required="required">
             </div><br/>
-            <div class=class="registrationFormAlert <?php if ($_POST['password'] === $_POST['checkpassword'] {}else{?> hidden <?php}?>" id="divCheckPasswordMatch"></div><br/>
+            <div class=class="registrationFormAlert" id="divCheckPasswordMatch"></div><br/>
             <div class="mx-auto text-center">
               <input class="btn btn-primary m-xl-auto" type="submit" name="register" value="Register">
             </div>
