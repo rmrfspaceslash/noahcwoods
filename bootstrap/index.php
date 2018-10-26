@@ -97,7 +97,7 @@ if ($_POST['register'] != null) {
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2 class="text-white mb-4">Aspirations</h2>
+            <h2 class="text-white mb-4">Future Plans</h2>
             <p class="text-white-50">After graduating from SHSBT (South Hills School of Business and Technology) I plan to secure a job
             in my field (Networking). However, I will not limit myself to Networking. This website is a demonstration of my knowledge in programming and
             database creation/administration.</p>
