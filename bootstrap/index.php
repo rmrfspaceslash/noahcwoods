@@ -67,9 +67,9 @@ if ($_POST['register'] != null) {
             </li>
             <li class="nav-item m-xl-auto">
               <form class="m-xl-auto" action="" method="post">
-                <?php if ($_SESSION['loggedin'] === false) { ?>
+                <?php if ($_SESSION['loggedin'] === false || $_SESSION['loggedin'] === null) { ?>
                 <input class="btn btn-primary m-xl-auto" type="submit" name="register" value="Register">
-                <?php }else { ?>
+              <?php }elseif ($_SESSION['loggedin'] === true){ ?>
                  <input class="btn btn-danger m-xl-auto" type="submit" name="logout" value="Logout">
                  <?php } ?>
 
