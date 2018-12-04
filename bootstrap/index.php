@@ -61,7 +61,7 @@ if ($_POST['register'] != null) {
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <?php if ($_SESSION['loggedin'] === false) { ?>
+              <?php if ($_SESSION['loggedin'] === false || $_SESSION['loggedin'] === null) { ?>
               <a class="nav-link js-scroll-trigger" href="login.php">Login</a>
             <?php }else {} ?>
             </li>
