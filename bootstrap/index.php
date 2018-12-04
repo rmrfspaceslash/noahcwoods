@@ -203,7 +203,7 @@ if ($_POST['register'] != null) {
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Business</h4>
                 <hr class="my-4">
-                <div class="small text-black-50"><a href="#">LWoods Computing, LLC</a></div>
+                <div class="small text-black-50"><a href="#">Woods Computing LLC</a></div>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ if ($_POST['register'] != null) {
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
-        Copyright &copy; LWoods Computing, LLC 2018
+        Copyright &copy; Woods Computing LLC 2018
       </div>
     </footer>
 
